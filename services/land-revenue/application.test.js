@@ -1,5 +1,5 @@
 const request = require("supertest");
-const { app, pool } = require("./apply");
+const { app, pool } = require("./application");
 
 describe("Benefit Application API Tests", () => {
   let createdApplicationId;

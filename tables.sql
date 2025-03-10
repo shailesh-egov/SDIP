@@ -36,3 +36,23 @@ CREATE TABLE applications (
     applied_at timestamp without time zone DEFAULT now(),
     PRIMARY KEY (application_id)
 );
+
+CREATE TABLE mapping_requests (
+    id UUID PRIMARY KEY,
+    service_id TEXT NOT NULL UNIQUE,
+    citizen_details JSONB NOT NULL,
+    additional_proof TEXT,
+    status TEXT NOT NULL,
+    aadhaar_id TEXT,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE disputes (
+    dispute_id UUID PRIMARY KEY,
+    service_id TEXT NOT NULL,
+    aadhaar_id TEXT NOT NULL,
+    reason TEXT NOT NULL,
+    supporting_documents JSONB,
+    status TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
