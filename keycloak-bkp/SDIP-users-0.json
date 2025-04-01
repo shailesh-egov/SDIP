@@ -1,0 +1,96 @@
+{
+  "realm" : "SDIP",
+  "users" : [ {
+    "id" : "2d2304a3-1dcb-4724-a398-0b637e723b24",
+    "createdTimestamp" : 1738497128721,
+    "username" : "hasura",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "hasura",
+    "lastName" : "hasura",
+    "email" : "hasura@test.com",
+    "credentials" : [ {
+      "id" : "0b4ea87f-bf67-4827-b098-fd3fea082aa5",
+      "type" : "password",
+      "createdDate" : 1738497149486,
+      "secretData" : "{\"value\":\"ZOJjtSX9oQRLftAf9cSRnNT5+qLaw6nzyMyz8rE98kFOF49GtQ9Uy8ihLiY6YL9g2GAphxYrPwfrGBxMenb3Rw==\",\"salt\":\"kX/DR8BLMs143QqIpdvw5A==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sdip" ],
+    "clientRoles" : {
+      "hasura-client" : [ "user" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4b8101f1-08cc-40f5-a867-eca879da86e0",
+    "createdTimestamp" : 1741084441455,
+    "username" : "land-revenue",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Department of land revenue",
+    "credentials" : [ {
+      "id" : "e1fb038f-e403-4b42-a56e-6702b9a3a3a7",
+      "type" : "password",
+      "createdDate" : 1741084451258,
+      "secretData" : "{\"value\":\"5uGyz9mQRcjqymyFWgAuFsyObhRL2QinEb5zPdS554U4H/uTsWSdIF3Ou7RphZSpU2PAN9DdRNe41TtiglOCog==\",\"salt\":\"Ucl7y3ZblAH41uOw1tGMAw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sdip" ],
+    "clientRoles" : {
+      "hasura-client" : [ "user" ],
+      "admin-cli" : [ "user" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ "/data-provider" ]
+  }, {
+    "id" : "7ae1651a-daef-4915-bfd3-36b161f0d366",
+    "createdTimestamp" : 1741253758682,
+    "username" : "shaileshkp",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Shailesh Kumar",
+    "lastName" : "Pandey",
+    "email" : "shailesh.kumar@egovernments.org",
+    "credentials" : [ {
+      "id" : "7a02e1be-c479-4801-bd65-2fb2e4479393",
+      "type" : "password",
+      "createdDate" : 1741253773401,
+      "secretData" : "{\"value\":\"0UzR2MA4DyB5VqhiGEG2Bne8oQpdYaKb4lBHRwhB3CqbtaGjChcb0KHAsBeHnavHxkcXkF4+I3z30zzKI/UrpA==\",\"salt\":\"NtYungT1sXaZwsrqV5ufhg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sdip" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "9b048011-9fec-432a-ace3-ac870cf8da83",
+    "createdTimestamp" : 1741084322358,
+    "username" : "social-justice",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Department of social justice",
+    "lastName" : "",
+    "credentials" : [ {
+      "id" : "6c3601af-c6eb-4064-bafa-8a794fe30b97",
+      "type" : "password",
+      "createdDate" : 1741084339780,
+      "secretData" : "{\"value\":\"y/4CS2dFK4VBgdUVUIFQADudj/uGKnKN7H0XLnE1NHxwXpGhdcU3yPMv5gQB8od5EmP7Oi5P3nLmKzp6WSAmbg==\",\"salt\":\"aJWSdnkGv2rbi2B56tk5dw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sdip" ],
+    "notBefore" : 0,
+    "groups" : [ "/data-consumer" ]
+  } ]
+}

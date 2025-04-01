@@ -31,6 +31,7 @@ CREATE TABLE certificates (
 CREATE TABLE applications (
     application_id integer NOT NULL DEFAULT nextval('applications_application_id_seq'::regclass),
     application_data jsonb NOT NULL,
+    formatted_id VARCHAR(50),
     schemename character varying(255) NOT NULL,
     status character varying(50) NOT NULL,
     applied_at timestamp without time zone DEFAULT now(),
